@@ -1,0 +1,11 @@
+.note-container {
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 1rem;
+    width: 250px;
+    height: 125px;
+    margin: 2%;
+    float: left;
+    overflow: auto;
+}

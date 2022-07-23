@@ -1,0 +1,7 @@
+.header-container {
+    background-color: #f5ba13;
+    color: whitesmoke;
+    margin: -0.3rem -0.45rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
