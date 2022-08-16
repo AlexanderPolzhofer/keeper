@@ -8,4 +8,5 @@
     margin: 2%;
     float: left;
     overflow: auto;
+    resize: vertical;
 }
