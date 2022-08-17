@@ -2,6 +2,7 @@ import React, { ChangeEvent, useState } from "react";
 import { NoteProps } from "../note/Note";
 import './CreateArea.styles.css';
 
+
 type CreateAreaProps = {
     onAddNote: (newNote: NoteProps) => void;
 }
@@ -21,6 +22,7 @@ const CreateArea: React.FC<CreateAreaProps> = ({ onAddNote }) => {
     const handleSubmit = (e: React.SyntheticEvent) => {
         e.preventDefault();
         onAddNote(note);
+        setNote({ title: '', content: '' })
     }
 
     const { title, content } = note;
