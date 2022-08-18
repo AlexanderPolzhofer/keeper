@@ -1,3 +1,4 @@
+import DeleteIcon from '@mui/icons-material/Delete';
 import './Note.styles.css';
 
 export type NoteProps = {
@@ -17,7 +18,7 @@ const Note: React.FC<NoteProps> = ({ id, title, content, onDelete }) => {
         <div className="note-container">
             <h1>{title}</h1>
             <p>{content}</p>
-            <button onClick={handleClick} className='note-button'>DELETE</button>
+            <button onClick={handleClick} className='note-button'><DeleteIcon /></button>
         </div>
     )
 }
