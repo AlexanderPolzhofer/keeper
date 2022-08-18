@@ -5,3 +5,18 @@
     padding: 0.5rem 1rem;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
+
+.heading {
+    font-size: xx-large;
+}
+
+.header-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+span{
+    margin-left: 5px;
+}
